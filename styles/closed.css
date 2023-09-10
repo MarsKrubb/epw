@@ -1,0 +1,49 @@
+.textclass {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size:34px;
+    color: #333333;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+  }
+
+.text {
+    background-color: #fff;
+    padding: 16px 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    width: 500px;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .textclass {
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 1px;
+        font-size:24px;
+        color: #333333;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+    }
+    .text {
+      background-color: #fff;
+      width: 350px;
+      position: relative;
+      color: #000;
+      text-decoration: none;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+}
